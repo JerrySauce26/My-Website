@@ -72,7 +72,7 @@ section#home {
     max-width: 100vw;
     margin: 0;
     position: relative;
-    color: whitesmoke;
+    color: white;
 }
 
 .home-image-slot {
@@ -168,7 +168,7 @@ section#education p {
     align-items: flex-start;
     gap: 2rem;
     width: 100%;
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -193,7 +193,7 @@ section#education p {
 }
 
 .education-details ul {
-    margin: 0.5rem 0 0 1.2rem;
+    margin: 0.5rem 0 2rem 1.2rem; /* Adds extra space below the list */
     padding: 0;
     list-style: disc;
     font-size: 1rem;
@@ -226,7 +226,7 @@ section#projects {
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.10);
     padding: 1rem;
-    width: 220px;
+    width: 250px;
     text-decoration: none;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -240,7 +240,7 @@ section#projects {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #222;
+    color: white;
     text-align: center;
 }
 
