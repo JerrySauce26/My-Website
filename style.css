@@ -51,6 +51,13 @@ section {
     margin: 20px auto;
 }
 
+section h2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
 section#home {
     background: url('images/black-canyon.jpeg') center center/cover no-repeat;
     width: 100vw;
@@ -202,6 +209,47 @@ section#projects {
     flex-direction: column;
     align-items: center;
     background-color: white;
+}
+
+.projects-row {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 2rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #333;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    padding: 1rem;
+    width: 220px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #222;
+    text-align: center;
+}
+
+.project-card img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
 }
 
 section#contact {
